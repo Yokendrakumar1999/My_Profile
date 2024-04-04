@@ -4,8 +4,9 @@ import myImg from "../../Assets/pic.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  
   AiFillInstagram,
+  AiOutlineGitlab,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -23,32 +24,24 @@ function Home2() {
               something, I think… 🤷‍♂️
               <br />
           
-              <br /> Experienced ReactJS developer with a strong understanding of 
-              <i>
-                <b className="purple">relational database
-management systems (RDBMS). </b>
+              <br /> Experienced DevOps engineer with a strong background in   <i>
+                <b className="purple">cloud infrastructure, automation, and continuous integration/continuous deployment (CI/CD). </b>
               </i>
               <br />
-              <br />
-              Proficient in building dynamic and responsive web
-applications using ReactJS, along with . &nbsp;
+              Skilled in designing, implementing, and maintaining scalable, secure, and efficient systems. Proven ability to collaborate
+             &nbsp;
               <i>
-                <b className="purple">integrating backend systems with RDBMS for
-efficient data management</b>
+                <b className="purple">with cross-functional teams to deliver high-quality solutions.</b>
               </i>
               <br />
+              <br /> Skilled in Java (Core) programming, adept at building robust applications and implementing    <i>
+                <b className="purple">object-oriented principles to create efficient software solutions. </b>
+              </i>
               <br />
-              Skilled in designing and implementing 
-               <b className="purple"> database schemas,
-optimizing queries, and ensuring data integrity. </b>  
-<br/>  
-<br/> 
-Experienced in leveraging ReactJS
-components to
-              
-              
-                <b className="purple"> create interactive user interfaces that seamlessly interact with RDBMS powered backends.   </b>
-          
+              <br /> Proficient in web development, with expertise in HTML, CSS, and JavaScript, along with frameworks such as    <i>
+                <b className="purple">React.js and Node.js, to create responsive and interactive web applications. </b>
+              </i>
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,7 +59,7 @@ components to
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://github.com/Yokendrakumar1999"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,18 +69,18 @@ components to
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://gitlab.com/Yokendrakumar1999"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineGitlab />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/priyadharshini-kumarasamy-a699162b8/"
-                  target="_blank"
+                href="https://www.linkedin.com/in/yokendrakumar-p/"
+                target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
@@ -96,8 +89,8 @@ components to
               </li>
               <li className="social-icons">
                 <a
-                  href=""
-                  target="_blank"
+                href="https://www.instagram.com/yokendrakumar199/"
+                target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >

@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import edit from "../../Assets/Projects/breast.png";
-import text1 from "../../Assets/Projects/tex1.png";
+import docker from "../../Assets/Projects/d1.jpeg";
+import ecom from "../../Assets/Projects/ecomm.png";
+import ec2 from "../../Assets/Projects/ec2.png";
 
 function Projects() {
   return (
@@ -19,46 +20,58 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={text1}
+              imgPath={ec2}
               isBlog={false}
-              title="Text Document Classification Using various Machine Learning Algorithm."
-              description="Text document classification using various machine learning algorithms involves training a model to categorize text documents into predefined classes or categories.  
-              Algorithms like Naive Bayes, Support Vector Machines, and Neural Networks are commonly used for this task. 
-              The process typically involves preprocessing the text data, such as tokenization and vectorization, followed by training the model on a labeled dataset. 
-              Evaluation is done using metrics like accuracy, precision, recall, and F1-score. 
-              Hyperparameter tuning and cross-validation are often used to improve model performance. 
-              Overall, the study compares machine learning methods for text document classification, finding logistic regression to be the most accurate (0.96) and decision trees the least (0.740). "
-              ghLink=""
+              title="Using load balancers, deploy web applications across many EC2 instances"
+              description="The procedure entails configuring an Application Load Balancer (ALB) with AWS EC2 to spread workloads over several servers and enhance application speed and stability. 
+              Enhanced performance: ALB enhances a system's overall performance by distributing incoming traffic across several targets equitably. This can speed up response times and enhance consumer satisfaction.
+              Enhanced availability: Your application is more available because ALB keeps track of the health of the targets it has recorded and only directs traffic to those in good standing.
+              Greater scalability: As your incoming traffic fluctuates over time, ALB adjusts the size of your load balancer. For the great majority of workloads, it can scale automatically.
+              Enhanced security: ALB also offers security measures that may guard your data and systems, such as access control, authentication, and encryption.
+              Reducing downtime: Automatically rerouting traffic away from unavailable servers or resources is possible using ALB.
+              Performing health checks: To identify potential coding and HTTP issues, ALB performs health checks on connected services on a port-by-port basis."
+              ghLink="https://github.com/Yokendrakumar1999/Devops"
             
             />
           </Col>
         </Row>
-      </Container>
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few Research Paper I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={edit}
+              imgPath={docker}
               isBlog={false}
-              title="Breast Cancer Classification using Machine Learning Algorithms."
-              description="Machine learning techniques have been extensively used in various medical applications, including advising clinicians on decision-making. 
-              In a study focusing on breast cancer classification, seven well-known linear and non-linear algorithms were compared using the Wisconsin Breast Cancer Diagnostic dataset. 
-              These algorithms included Linear SVM, Non-Linear SVM, Logistic regression, KNN, Naïve Bayes, Decision tree, and Random Forest. 
-              Naïve Bayes showed the highest accuracy (0.97) on the training set. 
-              The predictive models' performance was evaluated using k-fold cross-validation, showing Naïve Bayes as the best-performing model in terms of accuracy, precision, and recall on unobserved data."
-              ghLink=""
+              title="Docker-based web application containerization and Kubernetes cluster deployment"
+              description="Using Docker Hub as a registry for storing and sharing container images, this procedure makes it possible to containerize, version, and deploy web apps efficiently using Docker and Kubernetes.
+              Docker-based web application containerization: In the application's directory, create a Dockerfile. Make use of the Dockerfile to create a Docker image.
+              Forward the Docker Image to the Docker Hub: Docker login can be used to access Docker Hub. Push the image of Docker and tag it with your Docker Hub account.
+              Implement Kubernetes: Generate the YAML files for Kubernetes Deployment and Services. Apply the YAML files to deploy the application to a Kubernetes cluster.
+              Open the web application: Retrieve the external IP of the Kubernetes service. Using the given IP, access the web application."
+              ghLink="https://github.com/Yokendrakumar1999/Devops"
             
             />
           </Col>
         </Row>
       </Container>
-   
+    
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={ecom}
+              isBlog={false}
+              title="E-Commerce-WebsiteE-Commerce website using React.js, MySQL and Spring Boot"
+              description="The e-commerce website will be built using React.js for the front end, MySQL for the database, and Spring Boot for the backend. 
+              Spring Boot will handle API creation and database interactions using Spring Data JPA.
+              React.js components will be designed for product listing, cart management, and checkout features. 
+              Integration between React.js and Spring Boot will be achieved through HTTP requests, with user authentication implemented using Spring Security.
+               
+              Deployment will include deploying the Spring Boot backend to a servlet container and the React.js frontend to a static hosting service. 
+              Monitoring and maintenance will be crucial, including logging, monitoring, and error handling for both backend and frontend components. 
+              Continuous improvement and updates will ensure the website remains functional and efficient."
+              ghLink="https://github.com/Yokendrakumar1999/E-Commerce-Website"
+            
+            />
+          </Col>
+        </Row>
     </Container>
   );
 }

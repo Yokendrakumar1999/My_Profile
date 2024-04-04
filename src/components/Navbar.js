@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        Priyadharshini Portfolio
+        Yogi
           </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://www.linkedin.com/in/priyadharshini-kumarasamy-a699162b8/"
+                href="https://master.d2vmt21thfsa24.amplifyapp.com/"
                 target="_blank"
                 className="fork-btn-inner"
               >
