@@ -1,0 +1,16 @@
+.ResumeNew {
+    margin: 20px;
+  }
+  
+  .blue-bg {
+    background-color: rgb(8, 8, 24);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+  }
+  
+  .blue-bg h4 {
+    margin: 0;
+  }
+  

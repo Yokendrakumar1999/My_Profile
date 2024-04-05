@@ -84,10 +84,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/edu"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> qualification
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Qualification
               </Nav.Link>
             </Nav.Item>
 
