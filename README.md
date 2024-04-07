@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="" target="_blank">Yogi</a>
+  Portfolio Website <br/>
+  <a href="" target="_blank">Designed and Developed by Yogi</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -17,9 +17,6 @@
     <a href="https://github.com/Yokendrakumar1999/My_Profile">Request Feature</a>
 </h3>
 
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [](https://github.com/Yokendrakumar1999/My_Profile). Thanks!
 
 ## Built With
 
