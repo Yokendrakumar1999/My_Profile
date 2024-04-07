@@ -42,7 +42,7 @@ function Proj() {
     </Container>
     <Container>
         <h1 className="project-heading">
-          <strong className="purple">CERTIFICATIONS </strong>
+          <strong className="purple">Certifications </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few Acheivements & Internship I've worked on recently.
