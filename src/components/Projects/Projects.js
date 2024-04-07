@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import docker from "../../Assets/Projects/docker.png";
 import ecom from "../../Assets/Projects/ecomm.png";
 import ec2 from "../../Assets/Projects/ec2.png";
+import cibi from "../../Assets/Projects/cibi.png";
+import atj from "../../Assets/Projects/atj.png";
+
 
 function Projects() {
   return (
@@ -31,7 +34,7 @@ function Projects() {
               Reducing downtime: Automatically rerouting traffic away from unavailable servers or resources is possible using ALB.
               Performing health checks: To identify potential coding and HTTP issues, ALB performs health checks on connected services on a port-by-port basis."
               ghLink="https://github.com/Yokendrakumar1999/Devops"
-            
+              demoLink=""
             />
           </Col>
        
@@ -46,7 +49,7 @@ function Projects() {
               Implement Kubernetes: Generate the YAML files for Kubernetes Deployment and Services. Apply the YAML files to deploy the application to a Kubernetes cluster.
               Open the web application: Retrieve the external IP of the Kubernetes service. Using the given IP, access the web application."
               ghLink="https://github.com/Yokendrakumar1999/Devops"
-            
+              demoLink=""
             />
           </Col>
      
@@ -67,9 +70,36 @@ function Projects() {
               Monitoring and maintenance will be crucial, including logging, monitoring, and error handling for both backend and frontend components. 
               Continuous improvement and updates will ensure the website remains functional and efficient."
               ghLink="https://github.com/Yokendrakumar1999/E-Commerce-Website"
-            
+              demoLink="https://master.d2vmt21thfsa24.amplifyapp.com/"
             />
           </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cibi}
+              isBlog={false}
+              title="CIBI Website -The Centre for Innovation and Business Incubation (CIBI)"
+              description="There are many Bootstrap templates available online, both free and paid, that can help you quickly create a professional-looking website for the Centre for Innovation and Business Incubation (CIBI).
+
+              To use a Bootstrap template, you typically download the template files and then customize them to add your own content and branding. Most Bootstrap templates come with documentation that explains how to use the template and customize it to your needs.
+              
+              If you have a specific template in mind or need help finding one, let me know, and I can assist you further!"
+              ghLink="https://github.com/Yokendrakumar1999/CIBI-Website/tree/master"
+              demoLink="https://master.d38qjvzggsoqlz.amplifyapp.com/index.html"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={atj}
+              isBlog={false}
+              title="ATJ I-TECH SOLUTIONS Website"
+              description="
+              ATJ I-TECH SOLUTIONS' website design, built with Bootstrap, offers a seamless and responsive experience. The use of Bootstrap ensures that the website is mobile-friendly and adapts well to various screen sizes. The design is likely clean and modern, with a focus on user-friendly navigation and readability. By leveraging Bootstrap's components and grid system, the website likely achieves a professional look while maintaining flexibility for future updates and additions."
+              ghLink="https://github.com/Yokendrakumar1999/ATJ-I-TECH-Solutions-Website"
+              demoLink="https://master.d3tvwlb7amvvz8.amplifyapp.com/index.html"
+            />
+          </Col>
+          
         </Row>
     </Container>
     </Container>
