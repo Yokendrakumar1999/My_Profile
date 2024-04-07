@@ -98,16 +98,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                href="mailto:yokendrakumar1999@gmail.com"
-                target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillMail />
-                </a>
-              </li>
+             
             </ul>
           </Col>
         </Row>
