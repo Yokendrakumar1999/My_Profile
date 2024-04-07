@@ -5,7 +5,8 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+
+import myImg from "../Assets/logo.png";   
 import {
   AiFillStar,
   AiOutlineHome,
@@ -38,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="" className="d-flex">
-        
+       Yogi
           </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
