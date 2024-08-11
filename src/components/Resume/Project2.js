@@ -92,8 +92,8 @@ function Proj() {
             <ProjectCard
             
               isBlog={false}
-              title="Jspiders | Bangalore"
-              description="I completed the DevOps training program conducted at Jspiders in the BTM Layout, Bangalore.
+              title="Tecsacon Technologies | Bangalore"
+              description="I completed the Java full stack training program conducted at tecsacon technologies in the BTM Layout, Bangalore.
               "
             
             />
