@@ -95,7 +95,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://master.d2vmt21thfsa24.amplifyapp.com/"
+                href="mailto:yokendrakumar1999@gmail.com"
                 target="_blank"
                 className="fork-btn-inner"
               >
