@@ -52,28 +52,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-     
-      
-    
-      
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecom}
-              isBlog={false}
-              title="E-Commerce website using React.js for the frontend, MySQL for the database, and Spring Boot for the backend"
-              description="The e-commerce website will be built using React.js for the front end, MySQL for the database, and Spring Boot for the backend. 
-              Spring Boot will handle API creation and database interactions using Spring Data JPA.
-              React.js components will be designed for product listing, cart management, and checkout features. 
-              Integration between React.js and Spring Boot will be achieved through HTTP requests, with user authentication implemented using Spring Security.
-              Testing will involve unit tests for backend services and integration tests for frontend components. 
-              Deployment will include deploying the Spring Boot backend to a servlet container and the React.js frontend to a static hosting service. 
-              Monitoring and maintenance will be crucial, including logging, monitoring, and error handling for both backend and frontend components. 
-              Continuous improvement and updates will ensure the website remains functional and efficient."
-              ghLink="https://github.com/Yokendrakumar1999/E-Commerce-Website"
-              demoLink="https://master.d2vmt21thfsa24.amplifyapp.com/"
-            />
-          </Col>
-          
+              
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cibi}
@@ -99,7 +78,23 @@ function Projects() {
               demoLink="https://master.d3tvwlb7amvvz8.amplifyapp.com/index.html"
             />
           </Col>
-          
+       <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecom}
+              isBlog={false}
+              title="E-Commerce website using React.js for the frontend, MySQL for the database, and Spring Boot for the backend"
+              description="The e-commerce website will be built using React.js for the front end, MySQL for the database, and Spring Boot for the backend. 
+              Spring Boot will handle API creation and database interactions using Spring Data JPA.
+              React.js components will be designed for product listing, cart management, and checkout features. 
+              Integration between React.js and Spring Boot will be achieved through HTTP requests, with user authentication implemented using Spring Security.
+              Testing will involve unit tests for backend services and integration tests for frontend components. 
+              Deployment will include deploying the Spring Boot backend to a servlet container and the React.js frontend to a static hosting service. 
+              Monitoring and maintenance will be crucial, including logging, monitoring, and error handling for both backend and frontend components. 
+              Continuous improvement and updates will ensure the website remains functional and efficient."
+              ghLink="https://github.com/Yokendrakumar1999/E-Commerce-Website"
+              demoLink="https://master.d2vmt21thfsa24.amplifyapp.com/"
+            />
+          </Col>      
         </Row>
     </Container>
     </Container>
